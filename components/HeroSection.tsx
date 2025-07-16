@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function HeroSection() {
@@ -9,12 +8,10 @@ export default function HeroSection() {
       <picture className="absolute inset-0">
         <source media="(min-width: 768px)" srcSet="/hero_img2.jpg" />
         <source media="(max-width: 767px)" srcSet="/hero_img.jpg" />
-        <Image
+        <img
           src="/hero_img.jpg"
           alt="Muay Thai training"
-          fill
-          className="object-cover"
-          priority
+          className="w-full h-full object-cover"
         />
       </picture>
       <div className="relative z-20 text-center text-white max-w-6xl px-4">
