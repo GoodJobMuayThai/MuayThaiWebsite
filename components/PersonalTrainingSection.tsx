@@ -193,7 +193,7 @@ export default function PersonalTrainingSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="sms:+61497639213?body=Hi! I'm interested in booking a personal training session">
-                <Button className="bg-red-600 hover:bg-red-700 text-white">
+                <Button className="bg-red-600 hover:bg-red-700 text-white w-[150px]">
                   <Phone className="h-4 w-4 mr-2" />
                   Send SMS
                 </Button>
@@ -201,7 +201,7 @@ export default function PersonalTrainingSection() {
               <Link href="/#contact">
                 <Button
                   variant="outline"
-                  className="border-gray-600 text-gray-300 hover:bg-gray-600 bg-transparent"
+                  className="border-gray-600 text-gray-300 hover:bg-gray-600 bg-transparent w-[150px]"
                 >
                   <Mail className="h-4 w-4 mr-2" />
                   Email Inquiry
