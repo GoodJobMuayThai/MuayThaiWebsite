@@ -12,6 +12,7 @@ export default function HeroSection() {
           src="/hero_img.jpg"
           alt="Muay Thai training"
           className="w-full h-full object-cover"
+          loading="eager"
         />
       </picture>
       <div className="relative z-20 text-center text-white max-w-6xl px-4">
