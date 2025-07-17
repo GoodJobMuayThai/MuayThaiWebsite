@@ -122,7 +122,7 @@ export default function PersonalTrainingSection() {
               </CardDescription>
             </CardHeader>
             <CardContent className="flex-grow">
-              <div className="space-y-3 h-[108px]">
+              <div className="space-y-3 h-auto md:h-[108px]">
                 <div className="flex justify-between items-center p-3 bg-gray-600 rounded-lg">
                   <span className="text-gray-300">90 minutes</span>
                   <span className="font-bold text-white">$25/pp</span>
