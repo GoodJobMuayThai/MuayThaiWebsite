@@ -248,7 +248,7 @@ export default function MembershipSection() {
               </ul>
               <Link href="/#contact">
                 <Button
-                  className="w-full mt-4 bg-transparent border-gray-600 text-gray-300 hover:bg-gray-600"
+                  className="w-full mt-4"
                   variant="outline"
                 >
                   Inquire Now

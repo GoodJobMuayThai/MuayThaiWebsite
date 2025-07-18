@@ -36,7 +36,7 @@ export default function HeroSection() {
             <Button
               size="lg"
               variant="outline"
-              className="text-xl px-12 py-4 h-auto border-2 border-white text-white hover:bg-white hover:text-black bg-transparent"
+              className="text-xl px-12 py-4 h-auto"
             >
               View Our Classes
             </Button>
