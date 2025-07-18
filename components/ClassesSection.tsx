@@ -40,6 +40,7 @@ export default function ClassesSection() {
                 src="/beginner.jpg"
                 alt="Beginner Muay Thai"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover"
               />
               <Badge className="absolute top-4 left-4 bg-green-600">
@@ -52,8 +53,7 @@ export default function ClassesSection() {
                 Fundamentals
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
-                Perfect for newcomers to learn basic techniques and
-                conditioning
+                Perfect for newcomers to learn basic techniques and conditioning
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -100,6 +100,7 @@ export default function ClassesSection() {
                 src="/intermediate.jpg"
                 alt="Intermediate Muay Thai"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover object-[25%_5%]"
               />
               <Badge className="absolute top-4 left-4 bg-orange-600">
@@ -159,6 +160,7 @@ export default function ClassesSection() {
                 src="/all_levels.jpg"
                 alt="All levels training"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover"
               />
               <Badge className="absolute top-4 left-4 bg-blue-600">
@@ -220,6 +222,7 @@ export default function ClassesSection() {
                 src="/kids_class.jpg"
                 alt="Kids Muay Thai"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover"
               />
               <Badge className="absolute top-4 left-4 bg-green-500">Kids</Badge>
@@ -280,6 +283,7 @@ export default function ClassesSection() {
                 src="/clinch.jpg"
                 alt="Clinching"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover object-[25%_5%]"
               />
               <Badge className="absolute top-4 left-4 bg-purple-600">
@@ -342,6 +346,7 @@ export default function ClassesSection() {
                 src="/pad_training.jpg"
                 alt="Pad Training"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover"
               />
               <Badge className="absolute top-4 left-4 bg-yellow-600">
@@ -408,6 +413,7 @@ export default function ClassesSection() {
                 src="/personal_training.jpg"
                 alt="Private Training"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover object-[25%_23%]"
               />
               <Badge className="absolute top-4 left-4 bg-yellow-600">
