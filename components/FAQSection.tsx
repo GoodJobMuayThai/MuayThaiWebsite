@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 export default function FAQSection() {
   return (
@@ -203,17 +204,17 @@ export default function FAQSection() {
             <div className="px-6 pb-6">
               <p className="text-gray-300">
                 You can book a free trial by clicking{" "}
-                <a href="/contact" className="text-red-400">
+                <Link href="/#contact" className="text-red-400">
                   HERE
-                </a>
+                </Link>
                 , call us directly or drop into the gym. If you have completed a
                 trial class and you are wanting to continue you can choose a
                 membership option and we will guide you through signing up with
                 us at the gym. We have multiple membership options that you can
                 view{" "}
-                <a href="#membership" className="text-red-400">
+                <Link href="/#membership" className="text-red-400">
                   HERE
-                </a>
+                </Link>
               </p>
             </div>
           </details>

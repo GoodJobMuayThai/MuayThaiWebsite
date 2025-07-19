@@ -204,7 +204,7 @@ export default function MembershipSection() {
           </Card>
 
           {/* Kids Plan */}
-          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-90 h-full">
+          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full">
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
               <Badge className="bg-green-500 text-white">Kids Program</Badge>
             </div>
@@ -248,7 +248,7 @@ export default function MembershipSection() {
               </ul>
               <Link href="/#contact">
                 <Button
-                  className="w-full mt-4 bg-transparent border-gray-600 text-gray-300 hover:bg-gray-600"
+                  className="w-full mt-4"
                   variant="outline"
                 >
                   Inquire Now
@@ -258,7 +258,7 @@ export default function MembershipSection() {
           </Card>
 
           {/* Drop-In Casual */}
-          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-auto md:h-80 lg:h-96 overflow-y-auto">
+          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full overflow-y-auto">
             <CardHeader>
               <CardTitle className="text-xl text-white">Casual Pass</CardTitle>
               <CardDescription className="text-gray-400">
@@ -293,7 +293,7 @@ export default function MembershipSection() {
           </Card>
 
           {/* 10 Class Pass */}
-          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-auto md:h-80 lg:h-96 overflow-y-auto">
+          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full overflow-y-auto">
             <CardHeader>
               <CardTitle className="text-xl text-white">
                 10 Class Pass

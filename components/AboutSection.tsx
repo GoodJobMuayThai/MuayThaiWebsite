@@ -24,6 +24,7 @@ export default function AboutSection() {
                   src="/about_us.jpg"
                   alt="Good Job Muay Thai gym interior"
                   fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   className="object-cover"
                 />
               </div>
