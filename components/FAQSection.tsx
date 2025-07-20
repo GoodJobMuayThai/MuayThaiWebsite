@@ -204,7 +204,7 @@ export default function FAQSection() {
             <div className="px-6 pb-6">
               <p className="text-gray-300">
                 You can book a free trial by clicking{" "}
-                <Link href="/#contact" className="text-red-400">
+                <Link href="/#contact" className="text-teal-500">
                   HERE
                 </Link>
                 , call us directly or drop into the gym. If you have completed a
@@ -212,7 +212,7 @@ export default function FAQSection() {
                 membership option and we will guide you through signing up with
                 us at the gym. We have multiple membership options that you can
                 view{" "}
-                <Link href="/#membership" className="text-red-400">
+                <Link href="/#membership" className="text-teal-500">
                   HERE
                 </Link>
               </p>
