@@ -64,9 +64,11 @@ export default function Header() {
 
         {/* Desktop CTA Button */}
         <div className="hidden lg:block">
-          <Button className="bg-teal-600 hover:bg-teal-700 text-white">
-            Book Trial Class
-          </Button>
+          <Link href="/#contact">
+            <Button className="bg-teal-600 hover:bg-teal-700 text-white">
+              Book Trial Class
+            </Button>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -123,9 +125,11 @@ export default function Header() {
               Contact
             </Link>
             <div className="pt-4 border-t border-gray-800">
-              <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
-                Book Trial Class
-              </Button>
+              <Link href="#contact">
+                <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
+                  Book Trial Class
+                </Button>
+              </Link>
             </div>
           </nav>
         </div>
