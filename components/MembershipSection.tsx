@@ -19,7 +19,7 @@ import Link from "next/link";
 
 export default function MembershipSection() {
   return (
-    <section id="membership" className="py-20 bg-gray-900">
+    <section id="membership" className="py-20 bg-zinc-950">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-white">
@@ -66,10 +66,10 @@ export default function MembershipSection() {
                   <span className="text-gray-300">Pads Training</span>
                 </li>
               </ul>
-              <div className="mt-4 p-3 bg-red-600/20 border border-red-600/30 rounded-lg h-[110px]">
+              <div className="mt-4 p-3 bg-teal-600/20 border border-teal-600/30 rounded-lg h-[110px]">
                 <div className="flex items-center gap-2 mb-2">
-                  <Trophy className="h-4 w-4 text-red-400" />
-                  <span className="text-red-400 font-semibold text-sm">
+                  <Trophy className="h-4 w-4 text-teal-400" />
+                  <span className="text-teal-400 font-semibold text-sm">
                     SIGN UP BONUS OFFER
                   </span>
                 </div>
@@ -118,10 +118,10 @@ export default function MembershipSection() {
                   <span className="text-gray-300">Pads Training</span>
                 </li>
               </ul>
-              <div className="mt-4 p-3 bg-red-600/20 border border-red-600/30 rounded-lg h-[110px]">
+              <div className="mt-4 p-3 bg-teal-600/20 border border-teal-600/30 rounded-lg h-[110px]">
                 <div className="flex items-center gap-2 mb-2">
-                  <Trophy className="h-4 w-4 text-red-400" />
-                  <span className="text-red-400 font-semibold text-sm">
+                  <Trophy className="h-4 w-4 text-teal-400" />
+                  <span className="text-teal-400 font-semibold text-sm">
                     SIGN UP BONUS OFFER
                   </span>
                 </div>
@@ -139,9 +139,9 @@ export default function MembershipSection() {
           </Card>
 
           {/* Hybrid */}
-          <Card className="relative flex flex-col border-red-600 border-2 bg-gray-700 h-full">
+          <Card className="relative flex flex-col border-teal-600 border-2 bg-gray-700 h-full">
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-              <Badge className="bg-red-600 text-white">Most Popular</Badge>
+              <Badge className="bg-teal-600 text-white">Most Popular</Badge>
             </div>
             <CardHeader>
               <CardTitle className="text-xl text-white">Hybrid</CardTitle>
@@ -176,17 +176,17 @@ export default function MembershipSection() {
                   <CheckCircle className="h-3 w-3 text-green-500" />
                   <span className="text-gray-300">
                     Access to{" "}
-                    <a href="https://real-gym.com.au/" className="text-red-400">
+                    <a href="https://real-gym.com.au/" className="text-teal-400">
                       Real Gym
                     </a>{" "}
                     classes & equipments
                   </span>
                 </li>
               </ul>
-              <div className="mt-4 p-3 bg-red-600/20 border border-red-600/30 rounded-lg h-[110px]">
+              <div className="mt-4 p-3 bg-teal-600/20 border border-teal-600/30 rounded-lg h-[110px]">
                 <div className="flex items-center gap-2 mb-2">
-                  <Trophy className="h-4 w-4 text-red-400" />
-                  <span className="text-red-400 font-semibold text-sm">
+                  <Trophy className="h-4 w-4 text-teal-400" />
+                  <span className="text-teal-400 font-semibold text-sm">
                     SIGN UP BONUS OFFER
                   </span>
                 </div>
@@ -205,8 +205,10 @@ export default function MembershipSection() {
 
           {/* Student/ FIFO workers */}
           <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full">
-          <CardHeader>
-              <CardTitle className="text-xl text-white">Students/ FIFO workers</CardTitle>
+            <CardHeader>
+              <CardTitle className="text-xl text-white">
+                Students/ FIFO workers
+              </CardTitle>
               <CardDescription className="text-gray-400">
                 Flexible plan for students and FIFO workers
               </CardDescription>
@@ -235,10 +237,10 @@ export default function MembershipSection() {
                   <span className="text-gray-300">Pads Training</span>
                 </li>
               </ul>
-              <div className="mt-4 p-3 bg-red-600/20 border border-red-600/30 rounded-lg h-[110px]">
+              <div className="mt-4 p-3 bg-teal-600/20 border border-teal-600/30 rounded-lg h-[110px]">
                 <div className="flex items-center gap-2 mb-2">
-                  <Trophy className="h-4 w-4 text-red-400" />
-                  <span className="text-red-400 font-semibold text-sm">
+                  <Trophy className="h-4 w-4 text-teal-400" />
+                  <span className="text-teal-400 font-semibold text-sm">
                     SIGN UP BONUS OFFER
                   </span>
                 </div>
@@ -299,10 +301,7 @@ export default function MembershipSection() {
                 </li>
               </ul>
               <Link href="/#contact">
-                <Button
-                  className="w-full mt-4"
-                  variant="outline"
-                >
+                <Button className="w-full mt-4" variant="outline">
                   Inquire Now
                 </Button>
               </Link>
@@ -391,8 +390,8 @@ export default function MembershipSection() {
           </h3>
           <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Shield className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Shield className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">
                 Equipment Provided
@@ -402,8 +401,8 @@ export default function MembershipSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Users className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Users className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">
                 Expert Instruction
@@ -413,8 +412,8 @@ export default function MembershipSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Clock className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Clock className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">
                 Flexible Schedule
@@ -424,8 +423,8 @@ export default function MembershipSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Target className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Target className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">
                 Progress Tracking

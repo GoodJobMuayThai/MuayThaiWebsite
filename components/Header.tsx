@@ -17,10 +17,10 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-gray-900/95 backdrop-blur supports-[backdrop-filter]:bg-gray-900/60">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-800 bg-zinc-950/95 backdrop-blur supports-[backdrop-filter]:bg-zinc-950/60">
       <div className="flex h-16 items-center justify-between px-6 w-full">
         <div className="flex items-center space-x-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-red-600">
+          <div className="flex h-8 w-8 items-center justify-center rounded-full bg-teal-600">
             <span className="text-sm font-bold text-white">MT</span>
           </div>
           <span className="text-xl font-bold text-white">
@@ -32,31 +32,31 @@ export default function Header() {
         <nav className="hidden lg:flex items-center space-x-6">
           <Link
             href="#classes"
-            className="text-sm font-medium text-gray-300 hover:text-red-500 transition-colors"
+            className="text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors"
           >
             Classes
           </Link>
           <Link
             href="#about"
-            className="text-sm font-medium text-gray-300 hover:text-red-500 transition-colors"
+            className="text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors"
           >
             About Us
           </Link>
           <Link
             href="#timetable"
-            className="text-sm font-medium text-gray-300 hover:text-red-500 transition-colors"
+            className="text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors"
           >
             Timetable
           </Link>
           <Link
             href="#membership"
-            className="text-sm font-medium text-gray-300 hover:text-red-500 transition-colors"
+            className="text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors"
           >
             Membership
           </Link>
           <Link
             href="#contact"
-            className="text-sm font-medium text-gray-300 hover:text-red-500 transition-colors"
+            className="text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors"
           >
             Contact
           </Link>
@@ -64,7 +64,7 @@ export default function Header() {
 
         {/* Desktop CTA Button */}
         <div className="hidden lg:block">
-          <Button className="bg-red-600 hover:bg-red-700 text-white">
+          <Button className="bg-teal-600 hover:bg-teal-700 text-white">
             Book Trial Class
           </Button>
         </div>
@@ -72,7 +72,7 @@ export default function Header() {
         {/* Mobile Menu Button */}
         <Button
           onClick={toggleMobileMenu}
-          className="lg:hidden p-2 text-gray-200 hover:text-red-500 transition-colors"
+          className="lg:hidden p-2 text-gray-200 hover:text-teal-500 transition-colors"
           aria-label="Toggle mobile menu"
         >
           {isMobileMenuOpen ? (
@@ -90,40 +90,40 @@ export default function Header() {
             <Link
               href="#classes"
               onClick={closeMobileMenu}
-              className="block text-sm font-medium text-gray-300 hover:text-red-500 transition-colors py-2"
+              className="block text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors py-2"
             >
               Classes
             </Link>
             <Link
               href="#about"
               onClick={closeMobileMenu}
-              className="block text-sm font-medium text-gray-300 hover:text-red-500 transition-colors py-2"
+              className="block text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors py-2"
             >
               About Us
             </Link>
             <Link
               href="#timetable"
               onClick={closeMobileMenu}
-              className="block text-sm font-medium text-gray-300 hover:text-red-500 transition-colors py-2"
+              className="block text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors py-2"
             >
               Timetable
             </Link>
             <Link
               href="#membership"
               onClick={closeMobileMenu}
-              className="block text-sm font-medium text-gray-300 hover:text-red-500 transition-colors py-2"
+              className="block text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors py-2"
             >
               Membership
             </Link>
             <Link
               href="#contact"
               onClick={closeMobileMenu}
-              className="block text-sm font-medium text-gray-300 hover:text-red-500 transition-colors py-2"
+              className="block text-sm font-medium text-gray-300 hover:text-teal-500 transition-colors py-2"
             >
               Contact
             </Link>
             <div className="pt-4 border-t border-gray-800">
-              <Button className="w-full bg-red-600 hover:bg-red-700 text-white">
+              <Button className="w-full bg-teal-600 hover:bg-teal-700 text-white">
                 Book Trial Class
               </Button>
             </div>

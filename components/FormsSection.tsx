@@ -231,7 +231,7 @@ export default function FormsSection() {
           onClick={() => setActiveTab("trial")}
           className={`flex-1 py-2 px-4 text-sm font-medium rounded-md transition-colors ${
             activeTab === "trial"
-              ? "bg-red-600 text-white"
+              ? "bg-teal-600 text-white"
               : "text-gray-300 hover:text-white hover:bg-gray-600"
           }`}
         >
@@ -242,7 +242,7 @@ export default function FormsSection() {
           onClick={() => setActiveTab("enquiry")}
           className={`flex-1 py-2 px-4 text-sm font-medium rounded-md transition-colors ${
             activeTab === "enquiry"
-              ? "bg-red-600 text-white"
+              ? "bg-teal-600 text-white"
               : "text-gray-300 hover:text-white hover:bg-gray-600"
           }`}
         >
@@ -252,7 +252,7 @@ export default function FormsSection() {
       </div>
 
       {submitStatus === "success" && (
-        <div className="mb-4 p-3 bg-green-600 text-white rounded-md">
+        <div className="mb-4 p-3 bg-teal-600 text-white rounded-md">
           {activeTab === "trial"
             ? "Free Trial submitted successfully! We'll get back to you soon."
             : "General Enquiry submitted successfully! We'll get back to you soon."}
@@ -436,7 +436,7 @@ export default function FormsSection() {
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-red-600 hover:bg-red-700 text-white mt-auto disabled:opacity-50"
+              className="w-full bg-teal-600 hover:bg-teal-700 text-white mt-auto disabled:opacity-50"
             >
               <Calendar className="h-4 w-4 mr-2" />
               {isSubmitting ? "Submitting..." : "Book Free Trial"}
@@ -626,7 +626,7 @@ export default function FormsSection() {
             <Button
               type="submit"
               disabled={isSubmitting}
-              className="w-full bg-red-600 hover:bg-red-700 text-white mt-auto disabled:opacity-50"
+              className="w-full bg-teal-600 hover:bg-teal-700 text-white mt-auto disabled:opacity-50"
             >
               <Mail className="h-4 w-4 mr-2" />
               {isSubmitting ? "Submitting..." : "Send Enquiry"}

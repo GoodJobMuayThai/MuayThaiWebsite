@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-red-600">
+              <div className="flex h-8 w-8 items-center justify-center rounded-full bg-teal-600">
                 <span className="text-sm font-bold">MT</span>
               </div>
               <span className="text-xl font-bold">Good Job Muay Thai</span>

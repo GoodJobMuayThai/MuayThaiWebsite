@@ -76,7 +76,7 @@ export default function AboutSection() {
               href="https://www.instagram.com/goodjobmuaythai/?hl=en"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-64 flex justify-center gap-3 bg-red-600 hover:bg-red-700 text-white transition-colors px-6 py-3 rounded-lg group"
+              className="w-64 flex justify-center gap-3 bg-teal-600 hover:bg-teal-700 text-white transition-colors px-6 py-3 rounded-lg group"
             >
               <SiInstagram
                 className="h-6 w-6 text-gray-300 group-hover:text-white"
@@ -90,7 +90,7 @@ export default function AboutSection() {
               href="https://www.facebook.com/people/Good-Job-Muay-Thai/100081844877347/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-64 flex justify-center gap-3 bg-red-600 hover:bg-red-700 transition-colors px-6 py-3 rounded-lg group"
+              className="w-64 flex justify-center gap-3 bg-teal-600 hover:bg-teal-700 transition-colors px-6 py-3 rounded-lg group"
             >
               <SiFacebook
                 className="h-6 w-6 text-gray-300 group-hover:text-white"
