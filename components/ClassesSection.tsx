@@ -21,7 +21,7 @@ import Image from "next/image";
 
 export default function ClassesSection() {
   return (
-    <section id="classes" className="py-20 bg-gray-900">
+    <section id="classes" className="py-20 bg-zinc-950">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-white">
@@ -49,7 +49,7 @@ export default function ClassesSection() {
             </div>
             <CardHeader className="mb-2">
               <CardTitle className="flex items-center gap-2 text-white">
-                <Target className="h-5 w-5 text-red-500" />
+                <Target className="h-5 w-5 text-teal-500" />
                 Fundamentals
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
@@ -109,7 +109,7 @@ export default function ClassesSection() {
             </div>
             <CardHeader className="mb-2">
               <CardTitle className="flex items-center gap-2 text-white">
-                <Zap className="h-5 w-5 text-red-500" />
+                <Zap className="h-5 w-5 text-teal-500" />
                 Intermediate
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
@@ -169,7 +169,7 @@ export default function ClassesSection() {
             </div>
             <CardHeader className="mb-2">
               <CardTitle className="flex items-center gap-2 text-white">
-                <Dumbbell className="h-5 w-5 text-red-500" />
+                <Dumbbell className="h-5 w-5 text-teal-500" />
                 All Levels
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
@@ -229,7 +229,7 @@ export default function ClassesSection() {
             </div>
             <CardHeader className="mb-2">
               <CardTitle className="flex items-center gap-2 text-white">
-                <Users className="h-5 w-5 text-red-500" />
+                <Users className="h-5 w-5 text-teal-500" />
                 Kids Program
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
@@ -292,7 +292,7 @@ export default function ClassesSection() {
             </div>
             <CardHeader className="mb-2">
               <CardTitle className="flex items-center gap-2 text-white">
-                <BicepsFlexed className="h-5 w-5 text-red-500" />
+                <BicepsFlexed className="h-5 w-5 text-teal-500" />
                 Clinch class
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
@@ -355,7 +355,7 @@ export default function ClassesSection() {
             </div>
             <CardHeader className="mb-2">
               <CardTitle className="flex items-center gap-2 text-white">
-                <Timer className="h-5 w-5 text-red-500" />
+                <Timer className="h-5 w-5 text-teal-500" />
                 Pads
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
@@ -422,7 +422,7 @@ export default function ClassesSection() {
             </div>
             <CardHeader className="mb-2">
               <CardTitle className="flex items-center gap-2 text-white">
-                <Trophy className="h-5 w-5 text-red-500" />
+                <Trophy className="h-5 w-5 text-teal-500" />
                 Personal Training
               </CardTitle>
               <CardDescription className="text-gray-400 h-4">
@@ -470,8 +470,8 @@ export default function ClassesSection() {
           </h3>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Target className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Target className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">
                 Structured Learning
@@ -481,8 +481,8 @@ export default function ClassesSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Users className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Users className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">
                 Expert Instruction
@@ -492,8 +492,8 @@ export default function ClassesSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Shield className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Shield className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">
                 Safe Environment
@@ -503,8 +503,8 @@ export default function ClassesSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Trophy className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Trophy className="h-6 w-6 text-teal-500" />
               </div>
               <h4 className="font-semibold mb-2 text-white">Proven Results</h4>
               <p className="text-sm text-gray-400">

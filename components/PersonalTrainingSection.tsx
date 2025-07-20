@@ -19,7 +19,7 @@ import Link from "next/link";
 
 export default function PersonalTrainingSection() {
   return (
-    <section id="personalTraining" className="py-20 bg-gray-900">
+    <section id="personalTraining" className="py-20 bg-zinc-950">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-12">
           <h3 className="text-3xl font-bold mb-4 text-white">
@@ -36,7 +36,7 @@ export default function PersonalTrainingSection() {
           <Card className="bg-gray-700 border-gray-600 flex flex-col">
             <CardHeader>
               <CardTitle className="text-xl text-white flex items-center gap-2">
-                <Users className="h-5 w-5 text-red-500" />
+                <Users className="h-5 w-5 text-teal-500" />
                 1-on-1 Training
               </CardTitle>
               <CardDescription className="text-gray-400">
@@ -75,7 +75,7 @@ export default function PersonalTrainingSection() {
           <Card className="bg-gray-700 border-gray-600 flex flex-col">
             <CardHeader>
               <CardTitle className="text-xl text-white flex items-center gap-2">
-                <Users className="h-5 w-5 text-red-500" />
+                <Users className="h-5 w-5 text-teal-500" />
                 Semi-Private
               </CardTitle>
               <CardDescription className="text-gray-400">
@@ -114,7 +114,7 @@ export default function PersonalTrainingSection() {
           <Card className="bg-gray-700 border-gray-600 flex flex-col">
             <CardHeader>
               <CardTitle className="text-xl text-white flex items-center gap-2">
-                <Users className="h-5 w-5 text-red-500" />
+                <Users className="h-5 w-5 text-teal-500" />
                 Private Small Group
               </CardTitle>
               <CardDescription className="text-gray-400">
@@ -149,8 +149,8 @@ export default function PersonalTrainingSection() {
           </h4>
           <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Target className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Target className="h-6 w-6 text-teal-500" />
               </div>
               <h5 className="font-semibold mb-2 text-white">
                 Customized Training
@@ -160,8 +160,8 @@ export default function PersonalTrainingSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Clock className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Clock className="h-6 w-6 text-teal-500" />
               </div>
               <h5 className="font-semibold mb-2 text-white">
                 Flexible Scheduling
@@ -171,8 +171,8 @@ export default function PersonalTrainingSection() {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <div className="w-12 h-12 bg-red-600/20 rounded-full flex items-center justify-center mb-4">
-                <Zap className="h-6 w-6 text-red-500" />
+              <div className="w-12 h-12 bg-teal-600/20 rounded-full flex items-center justify-center mb-4">
+                <Zap className="h-6 w-6 text-teal-500" />
               </div>
               <h5 className="font-semibold mb-2 text-white">Faster Progress</h5>
               <p className="text-sm text-gray-400">
@@ -193,7 +193,7 @@ export default function PersonalTrainingSection() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="sms:+61497639213?body=Hi! I'm interested in booking a personal training session">
-                <Button className="bg-red-600 hover:bg-red-700 text-white w-[150px]">
+                <Button className="bg-teal-600 hover:bg-teal-700 text-white w-[150px]">
                   <Phone className="h-4 w-4 mr-2" />
                   Send SMS
                 </Button>

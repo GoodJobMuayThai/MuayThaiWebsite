@@ -5,7 +5,7 @@ import FormsSection from "./FormsSection";
 
 export default function ContactSection() {
   return (
-    <section id="contact" className="py-20 bg-gray-900">
+    <section id="contact" className="py-20 bg-zinc-950">
       <div className="px-6">
         <div className="grid lg:grid-cols-2 gap-12">
           <div>
@@ -19,14 +19,14 @@ export default function ContactSection() {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <MapPin className="h-6 w-6 text-red-500 mt-1" />
+                <MapPin className="h-6 w-6 text-teal-500 mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1 text-white">Location</h3>
                   <Link
                     href="https://maps.google.com/?q=7/75-77+Grange+Road+Welland+SA+5007"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-red-500 transition-colors cursor-pointer"
+                    className="text-gray-400 hover:text-teal-500 transition-colors cursor-pointer"
                   >
                     7/75-77 Grange Road Welland, SA, 5007
                   </Link>
@@ -34,7 +34,7 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Clock className="h-6 w-6 text-red-500 mt-1" />
+                <Clock className="h-6 w-6 text-teal-500 mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1 text-white">Hours</h3>
                   <p className="text-gray-400">
@@ -48,7 +48,7 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Phone className="h-6 w-6 text-red-500 mt-1" />
+                <Phone className="h-6 w-6 text-teal-500 mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1 text-white">Phone</h3>
                   <p className="text-gray-400">+61 411746407</p>
@@ -56,7 +56,7 @@ export default function ContactSection() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Mail className="h-6 w-6 text-red-500 mt-1" />
+                <Mail className="h-6 w-6 text-teal-500 mt-1" />
                 <div>
                   <h3 className="font-semibold mb-1 text-white">Email</h3>
                   <p className="text-gray-400">goodjobmuaythai@gmail.com</p>
@@ -69,14 +69,14 @@ export default function ContactSection() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <SiFacebook className="h-6 w-6 text-red-500" />
+                  <SiFacebook className="h-6 w-6 text-teal-500" />
                 </Link>
                 <Link
                   href="https://www.instagram.com/goodjobmuaythai/?hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <SiInstagram className="h-6 w-6 text-red-500" />
+                  <SiInstagram className="h-6 w-6 text-teal-500" />
                 </Link>
               </div>
             </div>

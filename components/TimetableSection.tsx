@@ -4,7 +4,7 @@ import { Calendar, Clock, Users } from "lucide-react";
 
 export default function TimetableSection() {
   return (
-    <section id="timetable" className="py-20 bg-gray-900">
+    <section id="timetable" className="py-20 bg-zinc-950">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-white">
@@ -22,7 +22,7 @@ export default function TimetableSection() {
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-2 text-white">
-                  <Calendar className="h-5 w-5 text-red-500" />
+                  <Calendar className="h-5 w-5 text-teal-500" />
                   Monday
                 </CardTitle>
               </CardHeader>
@@ -111,7 +111,7 @@ export default function TimetableSection() {
                     </div>
                     <Badge
                       variant="outline"
-                      className="bg-red-600/20 text-red-400 border-red-600"
+                      className="bg-teal-600/20 text-teal-400 border-teal-600"
                     >
                       Intermediate
                     </Badge>
@@ -124,7 +124,7 @@ export default function TimetableSection() {
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-2 text-white">
-                  <Calendar className="h-5 w-5 text-red-500" />
+                  <Calendar className="h-5 w-5 text-teal-500" />
                   Tuesday
                 </CardTitle>
               </CardHeader>
@@ -199,7 +199,7 @@ export default function TimetableSection() {
                     </div>
                     <Badge
                       variant="outline"
-                      className="bg-red-600/20 text-red-400 border-red-600"
+                      className="bg-teal-600/20 text-teal-400 border-teal-600"
                     >
                       Intermediate
                     </Badge>
@@ -226,7 +226,7 @@ export default function TimetableSection() {
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-2 text-white">
-                  <Calendar className="h-5 w-5 text-red-500" />
+                  <Calendar className="h-5 w-5 text-teal-500" />
                   Wednesday
                 </CardTitle>
               </CardHeader>
@@ -328,7 +328,7 @@ export default function TimetableSection() {
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-2 text-white">
-                  <Calendar className="h-5 w-5 text-red-500" />
+                  <Calendar className="h-5 w-5 text-teal-500" />
                   Thursday
                 </CardTitle>
               </CardHeader>
@@ -403,7 +403,7 @@ export default function TimetableSection() {
                     </div>
                     <Badge
                       variant="outline"
-                      className="bg-red-600/20 text-red-400 border-red-600"
+                      className="bg-teal-600/20 text-teal-400 border-teal-600"
                     >
                       Intermediate
                     </Badge>
@@ -430,7 +430,7 @@ export default function TimetableSection() {
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-2 text-white">
-                  <Calendar className="h-5 w-5 text-red-500" />
+                  <Calendar className="h-5 w-5 text-teal-500" />
                   Friday
                 </CardTitle>
               </CardHeader>
@@ -519,7 +519,7 @@ export default function TimetableSection() {
                     </div>
                     <Badge
                       variant="outline"
-                      className="bg-red-600/20 text-red-400 border-red-600"
+                      className="bg-teal-600/20 text-teal-400 border-teal-600"
                     >
                       Intermediate
                     </Badge>
@@ -532,7 +532,7 @@ export default function TimetableSection() {
             <Card className="bg-gray-800 border-gray-700">
               <CardHeader>
                 <CardTitle className="text-xl flex items-center gap-2 text-white">
-                  <Calendar className="h-5 w-5 text-red-500" />
+                  <Calendar className="h-5 w-5 text-teal-500" />
                   Saturday
                 </CardTitle>
               </CardHeader>
@@ -595,7 +595,7 @@ export default function TimetableSection() {
           {/* Additional Schedule Info */}
           <div className="mt-12 grid md:grid-cols-2 gap-6">
             <Card className="text-center p-6 bg-gray-800 border-gray-700">
-              <Clock className="h-8 w-8 text-red-500 mx-auto mb-4" />
+              <Clock className="h-8 w-8 text-teal-500 mx-auto mb-4" />
               <h3 className="font-semibold mb-2 text-white">
                 Flexible Make-ups
               </h3>
@@ -606,7 +606,7 @@ export default function TimetableSection() {
             </Card>
 
             <Card className="text-center p-6 bg-gray-800 border-gray-700">
-              <Users className="h-8 w-8 text-red-500 mx-auto mb-4" />
+              <Users className="h-8 w-8 text-teal-500 mx-auto mb-4" />
               <h3 className="font-semibold mb-2 text-white">
                 Private Sessions
               </h3>
