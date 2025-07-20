@@ -19,11 +19,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Good Job Muay Thai" }],
   creator: "Good Job Muay Thai",
   publisher: "Good Job Muay Thai",
-  metadataBase: new URL("https://goodjobmuaythai.com"),
+  metadataBase: new URL("https://www.goodjobmuaythai.com"),
   openGraph: {
     type: "website",
     locale: "en_AU",
-    url: "https://goodjobmuaythai.com",
+    url: "https://www.goodjobmuaythai.com",
     siteName: "Good Job Muay Thai",
     title: "Good Job Muay Thai - Adelaide's Best Muay Thai Gym",
     description:

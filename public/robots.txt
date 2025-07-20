@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://goodjobmuaythai.com/sitemap.xml
+Sitemap: https://www.goodjobmuaythai.com/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
