@@ -95,6 +95,10 @@ export default function RootLayout({
           httpEquiv="Permissions-Policy"
           content="camera=(), microphone=(), geolocation=()"
         />
+        <meta
+          name="google-site-verification"
+          content="9xtf44VOZfItkQ4zK55CjY-JAAyUcD5LmIv1WD4H11k"
+        />
       </head>
       <body>{children}</body>
     </html>
