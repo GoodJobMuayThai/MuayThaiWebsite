@@ -203,6 +203,58 @@ export default function MembershipSection() {
             </CardContent>
           </Card>
 
+          {/* Student/ FIFO workers */}
+          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full">
+          <CardHeader>
+              <CardTitle className="text-xl text-white">Students/ FIFO workers</CardTitle>
+              <CardDescription className="text-gray-400">
+                Flexible plan for students and FIFO workers
+              </CardDescription>
+              <div className="text-2xl font-bold text-white">
+                $35<span className="text-sm font-normal">/week</span>
+              </div>
+            </CardHeader>
+            <CardContent className="flex-grow flex flex-col justify-between">
+              <ul className="space-y-2 text-sm">
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="h-3 w-3 text-green-500" />
+                  <span className="text-gray-300">
+                    3 month initial lock-in contract, monthly thereafter
+                  </span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="h-3 w-3 text-green-500" />
+                  <span className="text-gray-300">All Classes Access</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="h-3 w-3 text-green-500" />
+                  <span className="text-gray-300">Equipment Access</span>
+                </li>
+                <li className="flex items-center gap-2">
+                  <CheckCircle className="h-3 w-3 text-green-500" />
+                  <span className="text-gray-300">Pads Training</span>
+                </li>
+              </ul>
+              <div className="mt-4 p-3 bg-red-600/20 border border-red-600/30 rounded-lg h-[110px]">
+                <div className="flex items-center gap-2 mb-2">
+                  <Trophy className="h-4 w-4 text-red-400" />
+                  <span className="text-red-400 font-semibold text-sm">
+                    SIGN UP BONUS OFFER
+                  </span>
+                </div>
+                <p className="text-white text-sm font-medium">
+                  Free gym merchandise package
+                </p>
+                <p className="text-gray-300 text-xs">
+                  1 Free pair of hand wraps
+                </p>
+                <p className="text-gray-300 text-xs">
+                  1 Free Good Job Muay Thai short
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Kids Plan */}
           <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full">
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
