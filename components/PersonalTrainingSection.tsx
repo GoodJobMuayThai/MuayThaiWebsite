@@ -192,7 +192,7 @@ export default function PersonalTrainingSection() {
               Contact us to discuss your goals and schedule your first session.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="sms:+61497639213?body=Hi! I'm interested in booking a personal training session">
+              <Link href="sms:+61411746407?body=Hi! I'm interested in booking a personal training session">
                 <Button className="bg-teal-600 hover:bg-teal-700 text-white w-[150px]">
                   <Phone className="h-4 w-4 mr-2" />
                   Send SMS
