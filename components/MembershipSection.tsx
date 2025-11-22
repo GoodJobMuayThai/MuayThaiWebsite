@@ -250,9 +250,6 @@ export default function MembershipSection() {
                 <p className="text-gray-300 text-xs">
                   1 Free pair of hand wraps
                 </p>
-                <p className="text-gray-300 text-xs">
-                  1 Free Good Job Muay Thai short
-                </p>
               </div>
             </CardContent>
           </Card>
