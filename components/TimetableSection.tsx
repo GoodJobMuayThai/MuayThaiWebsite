@@ -61,7 +61,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        7:30 AM - 3:30 PM
+                        9:00 AM - 3:30 PM
                       </div>
                       <div className="text-sm text-gray-400">
                         Personal Training
@@ -86,6 +86,20 @@ export default function TimetableSection() {
                       className="bg-orange-600/20 text-orange-400 border-orange-600"
                     >
                       Pads
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-semibold text-white">
+                        4:00 PM - 4:45 PM
+                      </div>
+                      <div className="text-sm text-gray-400">Kids Class</div>
+                    </div>
+                    <Badge
+                      variant="outline"
+                      className="bg-green-500/20 text-green-300 border-green-500"
+                    >
+                      Kids
                     </Badge>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
@@ -163,7 +177,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        7:30 AM - 3:30 PM
+                        9:00 AM - 3:30 PM
                       </div>
                       <div className="text-sm text-gray-400">
                         Personal Training
@@ -188,6 +202,20 @@ export default function TimetableSection() {
                       className="bg-orange-600/20 text-orange-400 border-orange-600"
                     >
                       Pads
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-semibold text-white">
+                        4:00 PM - 4:45 PM
+                      </div>
+                      <div className="text-sm text-gray-400">Kids Class</div>
+                    </div>
+                    <Badge
+                      variant="outline"
+                      className="bg-green-500/20 text-green-300 border-green-500"
+                    >
+                      Kids
                     </Badge>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
@@ -265,7 +293,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        7:30 AM - 3:30 PM
+                        9:00 AM - 3:30 PM
                       </div>
                       <div className="text-sm text-gray-400">
                         Personal Training
@@ -295,15 +323,15 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        5:15 PM - 6:00 PM
+                        4:30 PM - 5:30 PM
                       </div>
-                      <div className="text-sm text-gray-400">Fundamentals</div>
+                      <div className="text-sm text-gray-400">Muay Thai All Levels</div>
                     </div>
                     <Badge
                       variant="outline"
-                      className="bg-green-600/20 text-green-400 border-green-600"
+                      className="bg-blue-600/20 text-blue-400 border-blue-600"
                     >
-                      Fundamentals
+                      All Levels
                     </Badge>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
@@ -367,7 +395,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        7:30 AM - 3:30 PM
+                        9:00 AM - 3:30 PM
                       </div>
                       <div className="text-sm text-gray-400">
                         Personal Training
@@ -392,6 +420,20 @@ export default function TimetableSection() {
                       className="bg-orange-600/20 text-orange-400 border-orange-600"
                     >
                       Pads
+                    </Badge>
+                  </div>
+                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-semibold text-white">
+                        4:00 PM - 4:45 PM
+                      </div>
+                      <div className="text-sm text-gray-400">Kids Class</div>
+                    </div>
+                    <Badge
+                      variant="outline"
+                      className="bg-green-500/20 text-green-300 border-green-500"
+                    >
+                      Kids
                     </Badge>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
@@ -469,7 +511,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        7:30 AM - 3:30 PM
+                        9:00 AM - 3:30 PM
                       </div>
                       <div className="text-sm text-gray-400">
                         Personal Training
@@ -541,7 +583,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        6:00 AM - 9:00 AM
+                        7:00 AM - 8:00 AM
                       </div>
                       <div className="text-sm text-gray-400">Pads Training</div>
                     </div>
@@ -555,7 +597,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        7:00 AM - 8:00 AM
+                        8:00 AM - 9:00 AM
                       </div>
                       <div className="text-sm text-gray-400">
                         Muay Thai All Levels
