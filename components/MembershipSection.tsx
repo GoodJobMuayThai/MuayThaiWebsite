@@ -221,7 +221,7 @@ export default function MembershipSection() {
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-3 w-3 text-green-500" />
                   <span className="text-gray-300">
-                    3 month initial lock-in contract, monthly thereafter
+                    6 month initial lock-in contract, monthly thereafter
                   </span>
                 </li>
                 <li className="flex items-center gap-2">
@@ -264,8 +264,13 @@ export default function MembershipSection() {
               <CardDescription className="text-gray-400">
                 Ages 6-14 years old
               </CardDescription>
-              <div className="text-lg font-bold text-white">
-                Contact for Pricing
+              <div className="flex gap-2">
+                <div className="text-2xl font-bold text-white">
+                  $20<span className="text-sm font-normal">/week</span>
+                </div>
+                <div className="text-2xl font-bold text-white">
+                  (10%<span className="text-sm font-normal"> discount for siblings</span>)
+                </div>
               </div>
             </CardHeader>
             <CardContent className="flex-grow flex flex-col justify-between">
