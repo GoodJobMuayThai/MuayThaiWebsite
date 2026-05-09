@@ -31,7 +31,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        6:00 AM - 9:00 AM
+                        6:00 AM - 8:30 AM
                       </div>
                       <div className="text-sm text-gray-400">Pads Training</div>
                     </div>
@@ -147,7 +147,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        6:00 AM - 9:00 AM
+                        6:00 AM - 8:30 AM
                       </div>
                       <div className="text-sm text-gray-400">Pads Training</div>
                     </div>
@@ -246,6 +246,20 @@ export default function TimetableSection() {
                       Fundamentals
                     </Badge>
                   </div>
+                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-semibold text-white">
+                        6:45 PM - 7:30 PM
+                      </div>
+                      <div className="text-sm text-gray-400">Advanced</div>
+                    </div>
+                    <Badge
+                      variant="outline"
+                      className="bg-red-600/20 text-red-400 border-red-600"
+                    >
+                      Advanced
+                    </Badge>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -263,7 +277,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        6:00 AM - 9:00 AM
+                        6:00 AM - 8:30 AM
                       </div>
                       <div className="text-sm text-gray-400">Pads Training</div>
                     </div>
@@ -348,6 +362,20 @@ export default function TimetableSection() {
                       Clinching
                     </Badge>
                   </div>
+                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-semibold text-white">
+                        6:45 PM - 7:30 PM
+                      </div>
+                      <div className="text-sm text-gray-400">Advanced</div>
+                    </div>
+                    <Badge
+                      variant="outline"
+                      className="bg-red-600/20 text-red-400 border-red-600"
+                    >
+                      Advanced
+                    </Badge>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -365,7 +393,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        6:00 AM - 9:00 AM
+                        6:00 AM - 8:30 AM
                       </div>
                       <div className="text-sm text-gray-400">Pads Training</div>
                     </div>
@@ -464,6 +492,20 @@ export default function TimetableSection() {
                       Fundamentals
                     </Badge>
                   </div>
+                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
+                    <div>
+                      <div className="font-semibold text-white">
+                        6:45 PM - 7:30 PM
+                      </div>
+                      <div className="text-sm text-gray-400">Advanced</div>
+                    </div>
+                    <Badge
+                      variant="outline"
+                      className="bg-red-600/20 text-red-400 border-red-600"
+                    >
+                      Advanced
+                    </Badge>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -481,7 +523,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        6:00 AM - 9:00 AM
+                        6:00 AM - 8:30 AM
                       </div>
                       <div className="text-sm text-gray-400">Pads Training</div>
                     </div>
@@ -541,29 +583,29 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        5:15 PM - 6:00 PM
+                        5:30 PM - 6:00 PM
                       </div>
-                      <div className="text-sm text-gray-400">Fundamentals</div>
+                      <div className="text-sm text-gray-400">Intro to Sparring</div>
                     </div>
                     <Badge
                       variant="outline"
-                      className="bg-green-600/20 text-green-400 border-green-600"
+                      className="bg-purple-600/20 text-purple-400 border-purple-600"
                     >
-                      Fundamentals
+                      Sparring
                     </Badge>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        6:00 PM - 6:45 PM
+                        6:00 PM - 7:30 PM
                       </div>
-                      <div className="text-sm text-gray-400">Intermediate</div>
+                      <div className="text-sm text-gray-400">Open Mat</div>
                     </div>
                     <Badge
                       variant="outline"
-                      className="bg-teal-600/20 text-teal-400 border-teal-600"
+                      className="bg-purple-600/20 text-purple-400 border-purple-600"
                     >
-                      Intermediate
+                      Sparring
                     </Badge>
                   </div>
                 </div>

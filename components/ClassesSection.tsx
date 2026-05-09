@@ -16,6 +16,7 @@ import {
   Trophy,
   Clock,
   Shield,
+  Flame
 } from "lucide-react";
 import Image from "next/image";
 
@@ -37,11 +38,11 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-shadow duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/beginner.jpg"
+                src="/fundamentals.jpg"
                 alt="Beginner Muay Thai"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover"
+                className="object-cover object-[25%_23%]"
               />
               <Badge className="absolute top-4 left-4 bg-green-600">
                 Beginner
@@ -101,7 +102,7 @@ export default function ClassesSection() {
                 alt="Intermediate Muay Thai"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover object-[25%_5%]"
+                className="object-cover object-[25%_40%]"
               />
               <Badge className="absolute top-4 left-4 bg-orange-600">
                 Intermediate
@@ -157,11 +158,11 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/all_levels.jpg"
+                src="/all.jpg"
                 alt="All levels training"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover"
+                className="object-cover object-[25%_40%]"
               />
               <Badge className="absolute top-4 left-4 bg-blue-600">
                 All Levels
@@ -280,11 +281,12 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/clinch.jpg"
+                src="/clinching.jpg"
                 alt="Clinching"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover object-[25%_5%]"
+                className="object-cover object-[25%_38%]"
+           
               />
               <Badge className="absolute top-4 left-4 bg-purple-600">
                 Clinching
@@ -343,11 +345,11 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/pad_training.jpg"
+                src="/pads.jpg"
                 alt="Pad Training"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover"
+                className="object-cover object-[25%_32%]"
               />
               <Badge className="absolute top-4 left-4 bg-yellow-600">
                 Pads
@@ -410,11 +412,11 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/personal_training.jpg"
+                src="/personal.jpg"
                 alt="Private Training"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover object-[25%_23%]"
+                className="object-cover object-[25%_30%]"
               />
               <Badge className="absolute top-4 left-4 bg-yellow-600">
                 Personal Training
@@ -457,6 +459,54 @@ export default function ClassesSection() {
                   </li>
                   <li>Includes pad work, drills and conditioning</li>
                   <li>Ideal for beginners through to advanced fighters</li>
+                </ul>
+              </div>
+            </CardContent>
+          </Card>
+
+          <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
+            <div className="relative h-48">
+              <Image
+                src="/advance.jpg"
+                alt="Advanced Class"
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                className="object-cover object-[25%_47%]"
+              />
+              <Badge className="absolute top-4 left-4 bg-red-600">
+                Advanced
+              </Badge>
+            </div>
+            <CardHeader className="mb-2">
+              <CardTitle className="flex items-center gap-2 text-white">
+                <Flame className="h-5 w-5 text-teal-500" />
+                Advanced
+              </CardTitle>
+              <CardDescription className="text-gray-400 h-4">
+              Sharpen your technique, conditioning, fight IQ and ring performance
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <div className="space-y-2 mb-4">
+                <div className="flex items-center gap-2 text-sm text-gray-400">
+                  <Clock className="h-4 w-4" />
+                  45 minutes
+                </div>
+              </div>
+              <div className="space-y-3">
+                <h4 className="font-semibold text-sm text-white">
+                  What You'll Get:
+                </h4>
+                <ul className="text-sm text-gray-400 space-y-1 list-disc list-outside pl-4">
+                  <li>
+                    Further refinement of techniques, conditioning, fight IQ and ring performance
+                  </li>
+                  <li>
+                    Each session focuses on high-level pad work, sparring, clinching, drills and conditioning in a challenging, team-driven environment led by experienced coaches
+                  </li>
+                  <li>
+                    Suitable for dedicated students preparing to compete or wanting to train at a more advanced intensity.
+                  </li>
                 </ul>
               </div>
             </CardContent>
