@@ -337,7 +337,7 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        4:30 PM - 5:30 PM
+                        5:15 PM - 6:00 PM
                       </div>
                       <div className="text-sm text-gray-400">Muay Thai All Levels</div>
                     </div>
