@@ -38,7 +38,7 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-shadow duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/fundamentals.jpg"
+                src="/fundamentals.webp"
                 alt="Beginner Muay Thai"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -98,7 +98,7 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/intermediate.jpg"
+                src="/intermediate.webp"
                 alt="Intermediate Muay Thai"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -158,7 +158,7 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/all.jpg"
+                src="/all.webp"
                 alt="All levels training"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -281,7 +281,7 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/clinching.jpg"
+                src="/clinching.webp"
                 alt="Clinching"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -345,7 +345,7 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/pads.jpg"
+                src="/pads.webp"
                 alt="Pad Training"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -412,7 +412,7 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/personal.jpg"
+                src="/personal.webp"
                 alt="Private Training"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -467,7 +467,7 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/advance.jpg"
+                src="/advance.webp"
                 alt="Advanced Class"
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
