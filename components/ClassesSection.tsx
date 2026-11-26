@@ -220,67 +220,6 @@ export default function ClassesSection() {
           <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
             <div className="relative h-48">
               <Image
-                src="/kids_class.jpg"
-                alt="Kids Muay Thai"
-                fill
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                className="object-cover"
-              />
-              <Badge className="absolute top-4 left-4 bg-green-500">Kids</Badge>
-            </div>
-            <CardHeader className="mb-2">
-              <CardTitle className="flex items-center gap-2 text-white">
-                <Users className="h-5 w-5 text-teal-500" />
-                Kids Program
-              </CardTitle>
-              <CardDescription className="text-gray-400 h-4">
-                Fun and safe Muay Thai training for children aged 6-14
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="space-y-2 mb-4">
-                <div className="flex items-center gap-2 text-sm text-gray-400">
-                  <Clock className="h-4 w-4" />
-                  45 minutes
-                </div>
-              </div>
-              <div className="space-y-3">
-                <h4 className="font-semibold text-sm text-white">
-                  What You'll Learn:
-                </h4>
-                <ul className="text-sm text-gray-400 space-y-1 list-disc list-outside pl-4">
-                  <li>
-                    Fun, engaging and structured program for children aged 6 to
-                    14
-                  </li>
-                  <li>
-                    Classes run during school term with breaks over holidays
-                  </li>
-                  <li>Build confidence, discipline, fitness and respect</li>
-                  <li>
-                    Learn authentic Muay Thai skills in a safe and supportive
-                    environment
-                  </li>
-                  <li>
-                    Develop technique, coordination and focus through
-                    age-appropriate drills
-                  </li>
-                  <li>
-                    Grading day at end of term to earn coloured Thai armbands
-                    (Pra Jiad)
-                  </li>
-                  <li>
-                    Great way to stay active, make friends and be part of a
-                    positive community
-                  </li>
-                </ul>
-              </div>
-            </CardContent>
-          </Card>
-
-          <Card className="overflow-hidden transition-all duration-300 hover:shadow-md hover:shadow-white/30 bg-gray-800 border-gray-700">
-            <div className="relative h-48">
-              <Image
                 src="/clinching.webp"
                 alt="Clinching"
                 fill
