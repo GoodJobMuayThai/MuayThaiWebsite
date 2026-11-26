@@ -254,62 +254,6 @@ export default function MembershipSection() {
             </CardContent>
           </Card>
 
-          {/* Kids Plan */}
-          <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full">
-            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-              <Badge className="bg-green-500 text-white">Kids Program</Badge>
-            </div>
-            <CardHeader>
-              <CardTitle className="text-xl text-white">Kids Classes</CardTitle>
-              <CardDescription className="text-gray-400">
-                Ages 6-14 years old
-              </CardDescription>
-              <div className="flex gap-2">
-                <div className="text-2xl font-bold text-white">
-                  $20<span className="text-sm font-normal">/week</span>
-                </div>
-                <div className="text-2xl font-bold text-white">
-                  (10%<span className="text-sm font-normal"> discount for siblings</span>)
-                </div>
-              </div>
-            </CardHeader>
-            <CardContent className="flex-grow flex flex-col justify-between">
-              <ul className="space-y-2 text-sm pl-2">
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-3 w-3 text-green-500" />
-                  <span className="text-gray-300">
-                    Age-appropriate training
-                  </span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-3 w-3 text-green-500" />
-                  <span className="text-gray-300">
-                    Focus on discipline & respect
-                  </span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-3 w-3 text-green-500" />
-                  <span className="text-gray-300">
-                    Safe learning environment
-                  </span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-3 w-3 text-green-500" />
-                  <span className="text-gray-300">Character development</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <CheckCircle className="h-3 w-3 text-green-500" />
-                  <span className="text-gray-300">Fun & engaging classes</span>
-                </li>
-              </ul>
-              <Link href="/#contact">
-                <Button className="w-full mt-4" variant="outline">
-                  Inquire Now
-                </Button>
-              </Link>
-            </CardContent>
-          </Card>
-
           {/* Drop-In Casual */}
           <Card className="relative flex flex-col bg-gray-700 border-gray-600 h-full overflow-y-auto">
             <CardHeader>
@@ -321,9 +265,6 @@ export default function MembershipSection() {
                 <div className="text-2xl font-bold text-white">
                   $28
                   <span className="text-sm font-normal">/class (Adults)</span>
-                </div>
-                <div className="text-2xl font-bold text-white">
-                  $22<span className="text-sm font-normal">/class (Kids)</span>
                 </div>
               </div>
             </CardHeader>

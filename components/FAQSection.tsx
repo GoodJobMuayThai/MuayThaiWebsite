@@ -93,22 +93,6 @@ export default function FAQSection() {
           <details className="group bg-background rounded-lg border bg-gray-700 border-gray-600">
             <summary className="flex justify-between items-center p-6">
               <h3 className="text-lg font-semibold">
-                Is Muay Thai safe for kids?
-              </h3>
-              <ChevronDown className="h-5 w-5 group-open:rotate-180 transition-transform" />
-            </summary>
-            <div className="px-6 pb-6">
-              <p className="text-gray-300">
-                Yes! Our kids classes a designed to be fun, safe and
-                age-appropriate. We focus on building confidence, discipline and
-                fitness in a supportive environment.
-              </p>
-            </div>
-          </details>
-
-          <details className="group bg-background rounded-lg border bg-gray-700 border-gray-600">
-            <summary className="flex justify-between items-center p-6">
-              <h3 className="text-lg font-semibold">
                 Can I do Muay Thai just for fitness, not fighting?
               </h3>
               <ChevronDown className="h-5 w-5 group-open:rotate-180 transition-transform" />
@@ -228,7 +212,7 @@ export default function FAQSection() {
             </summary>
             <div className="px-6 pb-6">
               <p className="text-gray-300">
-                We offer classes for kids (6-14 years), teens and adults. Each
+                We offer classes for teens and adults. Each
                 class is tailored to the age and experience level of the group.
               </p>
             </div>

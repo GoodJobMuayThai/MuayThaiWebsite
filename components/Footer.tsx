@@ -70,7 +70,6 @@ export default function Footer() {
               <li>Clinching Classes</li>
               <li>Pads Training</li>
               <li>Personal Training</li>
-              <li>Kids Classes</li>
             </ul>
           </div>
 

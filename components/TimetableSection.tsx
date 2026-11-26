@@ -91,20 +91,6 @@ export default function TimetableSection() {
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
                     <div>
                       <div className="font-semibold text-white">
-                        4:00 PM - 4:45 PM
-                      </div>
-                      <div className="text-sm text-gray-400">Kids Class</div>
-                    </div>
-                    <Badge
-                      variant="outline"
-                      className="bg-green-500/20 text-green-300 border-green-500"
-                    >
-                      Kids
-                    </Badge>
-                  </div>
-                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
-                    <div>
-                      <div className="font-semibold text-white">
                         5:15 PM - 6:00 PM
                       </div>
                       <div className="text-sm text-gray-400">Fundamentals</div>
@@ -202,20 +188,6 @@ export default function TimetableSection() {
                       className="bg-orange-600/20 text-orange-400 border-orange-600"
                     >
                       Pads
-                    </Badge>
-                  </div>
-                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
-                    <div>
-                      <div className="font-semibold text-white">
-                        4:00 PM - 4:45 PM
-                      </div>
-                      <div className="text-sm text-gray-400">Kids Class</div>
-                    </div>
-                    <Badge
-                      variant="outline"
-                      className="bg-green-500/20 text-green-300 border-green-500"
-                    >
-                      Kids
                     </Badge>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
@@ -448,20 +420,6 @@ export default function TimetableSection() {
                       className="bg-orange-600/20 text-orange-400 border-orange-600"
                     >
                       Pads
-                    </Badge>
-                  </div>
-                  <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">
-                    <div>
-                      <div className="font-semibold text-white">
-                        4:00 PM - 4:45 PM
-                      </div>
-                      <div className="text-sm text-gray-400">Kids Class</div>
-                    </div>
-                    <Badge
-                      variant="outline"
-                      className="bg-green-500/20 text-green-300 border-green-500"
-                    >
-                      Kids
                     </Badge>
                   </div>
                   <div className="flex justify-between items-center p-3 bg-gray-700 rounded-lg">

@@ -557,7 +557,6 @@ export default function FormsSection() {
                 <option value="General Information">General Information</option>
                 <option value="Membership Enquiry">Membership Enquiry</option>
                 <option value="Personal Training">Personal Training</option>
-                <option value="Kids Classes">Kids Classes</option>
                 <option value="Facilities & Equipment">
                   Facilities & Equipment
                 </option>
